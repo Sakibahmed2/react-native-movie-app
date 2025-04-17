@@ -9,7 +9,7 @@ interface ISearchBarProps {
 
 const SearchBar = ({ onPress, placeholder }: ISearchBarProps) => {
   return (
-    <View className="flex-row items-center rounded-full bg-dark-200 px-5 py-4">
+    <View className="flex-row items-center rounded-full bg-dark-200 px-5 py-2 border border-light-500">
       <Image
         source={icons.search}
         className="size-5"
